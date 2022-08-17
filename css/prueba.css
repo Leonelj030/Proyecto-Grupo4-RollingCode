@@ -11,8 +11,7 @@ body {
 }
 
 .titulo{
-    color: rgb(64, 39, 255);
-    opacity: 0.8;
+    color: #fff;
 }
 
 h1 {
@@ -20,14 +19,18 @@ h1 {
     text-align: center;
     padding: 20px 0;
     font-size: 40px;
+    height: 105px;
+    width: 100%;
+    background: #202020;
+    border-bottom: 5px solid #fff;
 }
 
-.linea {
-    background: #550b51;
-    height: 5px;
+/* .linea {
+    background: #ffffffff;
+    height: 50px;
     width: 100%;
     display: block;
-}
+} */
 
 .galeria {
     display: grid;
