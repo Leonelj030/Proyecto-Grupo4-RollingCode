@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: #202020;
+}
+
+.nav-link:hover {
+    color: #98989c;
+}
+
+.menu-hamburguesa {
+    border-top: 2px solid black;
+}
+
+.iconArrowUp {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 100%;
+}
+
+.link-items {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.navbar-nav li a {
+    position: relative;
+    color: #999999
+}
+
+.navbar-nav li a::after {
+    content: "";
+    position: absolute;
+    background: #f19000;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: 2px;
+    transition: 0.5s;
+}
+
+.navbar-nav li a:hover::after {
+    width: 100%;
+}
+
+.navbar-nav li a:hover {
+    color: #fff
+}
+
+.modal-link {
+    font-size: 18px;
+    position: relative;
+    color: #999999;
+}
+
+.modal-link::after {
+    content: "";
+    position: absolute;
+    background: #f19000;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: 1px;
+    transition: 0.5s;
+}
+
+.modal-link:hover::after {
+    width: 100%;
+}
+
+.modal-link:hover {
+    color: #ffffff;
+}
+
+.img-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.btn-modal-hover {
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+.btn-padding {
+    padding: 0;
+}
+
+.b-radius {
+    border-radius: 5px;
+}
+

@@ -1,0 +1,69 @@
+body{
+    background-color: #202020
+    /* background-color: #999999; 
+    background-color: #202020;
+    background-color: #b20300;
+    background-color: #f19000;
+    background-color: #fafafa;*/
+}
+/* Carusel  */
+.carousel .carousel-inner{
+    max-height: 50rem;
+    max-width: 90rem;
+    background-size: cover;
+    background-position: center center;
+}
+
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: black;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Fin Carusel */
+/* Tarjetas */
+.cards{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+    position: relative;
+  border: 3px;
+  top: 30px;
+  bottom: 30px;
+}
+/* Formulario de Busqueda */
+.colbuscar{
+    position: relative;
+    top: 50px;
+}
+/* Gift de Publicidad */
+.gif{
+    position: relative; 
+    top: 50px;
+    display: block;
+    margin: auto;
+}
+
+.recomendaciont{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+.menu{ 
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.menudia{
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,10 @@
+body {
+    background: #202020;
+}
+
+.img-bg {
+    background-image: url(/img/_DSC8444.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

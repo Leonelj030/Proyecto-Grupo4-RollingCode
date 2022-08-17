@@ -1,0 +1,38 @@
+footer{
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.box{
+    height: 250px;
+}
+
+.sociales{
+    height: 30px;
+    width: 200px;
+}
+
+.linea{
+    height: 1px;
+    width: 100%;
+}
+
+.logo{
+    width: 200px;
+}
+
+.efectofb:hover{
+    background-color: #4267B2;
+}
+
+.efectoinsta:hover{
+    background-color: #bc2a8d;
+}
+
+.efectotw:hover{
+    background-color: #1DA1F2
+}
